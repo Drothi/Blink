@@ -1,6 +1,6 @@
 import blink
 
 
-blinker = blink.blink3()
+blinker = blink.blink()
 while True:
     blinker.blinkOnOff()
