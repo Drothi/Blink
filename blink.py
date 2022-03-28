@@ -16,12 +16,22 @@ class blink():
                 self.lifebit = True
                 print(self.lifebit)
                 self.LAST_BLINK_TIME = now
+                return self.lifebit
         if self.lifebit:
             # Is it time to turn off?
             if now >= self.LAST_BLINK_TIME + self.delay:       
                 self.lifebit = False
                 print(self.lifebit)
                 self.LAST_BLINK_TIME = now
+                return self.lifebit
+#####################################################################
+# CALL
+#####################################################################
+# import blink
+#  
+# b = blink(0.5)
+# while True:
+#     b.blink()  
               
 
 
