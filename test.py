@@ -3,4 +3,4 @@ import blink
 
 blinker = blink.blink()
 while True:
-    blinker.blinkOnOff()
+    blinker.blink(0.5)
