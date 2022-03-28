@@ -15,7 +15,7 @@ class blink():
             if now >= self.LAST_BLINK_TIME + self.delay:
                 self.lifebit = True
                 print(self.lifebit)
-                LAST_BLINK_TIME = now
+                self.LAST_BLINK_TIME = now
         if self.lifebit:
             # Is it time to turn off?
             if now >= self.LAST_BLINK_TIME + self.delay:       
